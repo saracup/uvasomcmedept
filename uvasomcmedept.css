@@ -1,0 +1,318 @@
+ul.cme_course li {
+	list-style-position: inside;
+}
+ul.cme_course li.cme_register {
+	list-style-type:none;
+}
+.uvasomcmedept.search #content.hfeed h2 {
+	font-size:18px;
+	font-size:1.1rem;
+}
+.uvasomcmedept.search #content.hfeed h2 a,
+.uvasomcmedept.search #content.hfeed h2 a:visited {
+	color:#ff7003;
+}
+.uvasomcmedept div.courselist_container {
+	padding-top:12px;
+	padding-top:1.2rem;
+}
+.uvasomcmedept div.courselist
+{
+	clear:both;
+	margin:0 0 16px 0;
+	margin:0 0 1rem 0;
+	border:1px solid #d7d7d7;
+	overflow:hidden;
+	padding:10px 20px 20px 20px;
+	padding:.3rem 1.0rem 1.0rem 1.0rem;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q3ZDdkNyIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(215,215,215,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(215,215,215,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(215,215,215,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(215,215,215,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(215,215,215,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(215,215,215,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d7d7d7', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */
+}
+.uvasomcmedept div.courseinfo {
+	float:left;
+	clear:none;
+	width:70%;
+}
+.uvasomcmedept div.courselinks {
+	float:right;
+	clear:none;
+	width:25%;
+	margin-top:.3rem;
+}
+.uvasomcmedept div.courselinks a.cme_register  {
+	color: #fff;
+	font-family: 'proxima-nova-condensed',sans-serif;
+	font-weight: 600;
+	padding: 5px;
+	background: #ff7003;
+	text-transform: uppercase;
+	display:block;
+	text-align:center;
+	width:100%;
+}
+/*Calendar icon*/
+.uvasomcmedept div.courselinks button.uvasomical {
+  color: #fff;
+  font-family: 'proxima-nova-condensed',sans-serif;
+  padding-top: 8px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  background: none;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  width: 100%;
+  border:none;
+  margin:0;
+  color:#666;
+  font-size:12px;
+  cursor:pointer;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?2jwgj9');
+	src:url('fonts/icomoon.eot?#iefix2jwgj9') format('embedded-opentype'),
+		url('fonts/icomoon.woff?2jwgj9') format('woff'),
+		url('fonts/icomoon.ttf?2jwgj9') format('truetype'),
+		url('fonts/icomoon.svg?2jwgj9#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+	content: "\e601";
+}
+
+.icon-menu:before {
+	content: "\e600";
+}
+
+.icon-calendar:before {
+    content: "\e601";
+}
+.icon-calendar {
+	padding-right:5px;
+	font-size:1.2rem;
+}
+/*end calendar*/
+.uvasomcmedept div.cmecourse_content {
+border-top: 1px solid #ddd;
+margin-top: 20px;
+margin-top: 1.4rem;
+padding-top: 10px;
+padding-top: .6rem;
+}
+.uvasomcmedept div.coursesingle {
+	overflow: hidden;
+	/*padding: 5px 15px 15px 15px;*/
+	float:right;
+	clear:both;
+}
+.uvasomcmedept div.courseinfo h2, 
+.uvasomcmedept div.courseinfo h2 a {
+	font-size:20px;
+	font-size:1.3rem;
+	font-weight:600;
+	text-transform:uppercase;
+	font-family:'proxima-nova-condensed',Arial,sans-serif;
+}
+.uvasomcmedept div.courseinfo p {
+font-size: 1.0rem;
+padding-top: 0;
+}
+.uvasomcmedept div.courselinks p {
+	padding-top:0;
+}
+.uvasomcmedept div.courselinks p.cme_thumb {
+	padding-top:10px;
+	margin-top:10px;
+}
+.uvasomcmedept div.courselinks p.cme_thumb > a > img.uvasomcmethumb {
+	max-width:100%;
+	display:block;
+	border:1px solid #d7d7d7;
+}
+.uvasomcmedept div.courseinfo div.coursedetails   {
+	font-weight:normal;
+	font-weight:200;
+	font-family:'proxima-nova-condensed',Arial,sans-serif;
+	cursor:pointer;
+	display:block;
+	color:#fff;
+	text-transform:uppercase;
+	margin-top:8px;
+}
+.uvasomcmedept div.courseinfo div.coursedetails.closed:before   {
+	content:"Show Details";
+	padding:1px 5px;
+	width:auto;
+	background-color:#ccc;
+}
+.uvasomcmedept div.courseinfo div.coursedetails.open:before   {
+	content:"Hide Details";
+	padding:1px 5px;
+	width:auto;
+	background-color:#ccc;
+}
+.uvasomcmedept div.courseinfo div.coursecontent  {
+	display:none;
+}
+.uvasomcmedept div.courseinfo div.coursedate  {
+	display:block;
+}
+.uvasomcmedept div.courseinfo a.coursedetails  {
+	display:block;
+}
+/******styles for pagination************/
+.jPaginate{
+    height:34px;
+    position:relative;
+    color:#a5a5a5;
+    font-size:small;   
+	width:100%;
+}
+.jPaginate a{
+    line-height:15px;
+    height:18px;
+    cursor:pointer;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+.jPag-control-back{
+	position:absolute;
+	left:0px;
+}
+.jPag-control-front{
+	position:absolute;
+	top:0px;
+}
+.jPaginate span{
+    cursor:pointer;
+}
+ul.jPag-pages{
+    float:left;
+    list-style-type:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+ul.jPag-pages li{
+    display:inline;
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+ul.jPag-pages li a{
+    float:left;
+    padding:2px 5px;
+}
+span.jPag-current{
+    cursor:default;
+    font-weight:normal;
+    line-height:15px;
+    height:18px;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-next,
+span.jPag-sprevious,
+span.jPag-snext,
+ul.jPag-pages li span.jPag-previous-img,
+ul.jPag-pages li span.jPag-next-img,
+span.jPag-sprevious-img,
+span.jPag-snext-img{
+    height:22px;
+    margin:2px;
+    float:left;
+    line-height:18px;
+}
+
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-previous-img{
+    margin:2px 0px 2px 2px;
+    font-size:12px;
+    font-weight:bold;
+        width:10px;
+
+}
+ul.jPag-pages li span.jPag-next,
+ul.jPag-pages li span.jPag-next-img{
+    margin:2px 2px 2px 0px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+}
+span.jPag-sprevious,
+span.jPag-sprevious-img{
+    margin:2px 0px 2px 2px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
+span.jPag-snext,
+span.jPag-snext-img{
+    margin:2px 2px 2px 0px;
+    font-size:18px;
+    width:15px;
+     text-align:right;
+}
+ul.jPag-pages li span.jPag-previous-img{
+    background:transparent url(../images/previous.png) no-repeat center right;
+            }
+ul.jPag-pages li span.jPag-next-img{
+    background:transparent url(../images/next.png) no-repeat center left;
+            }
+span.jPag-sprevious-img{
+    background:transparent url(../images/sprevious.png) no-repeat center right;
+            }
+span.jPag-snext-img{
+    background:transparent url(../images/snext.png) no-repeat center left;
+            }
+.post-type-archive-cmecourse.search #content {
+	width:66%;
+}
+div.uvasomical {
+	display:none;
+}
+@media only screen and (max-width: 600px) {
+.uvasomcmedept div.courseinfo {
+width:100%;
+}
+.uvasomcmedept div.courselinks {
+width:100%;
+}
+}
+
+	
+
+
+
+
+
+
+
+
