@@ -1,12 +1,18 @@
 <?php
-//ini_set('display_errors',1); 
+//ini_set('display_errors',1);
 //error_reporting(E_ALL);
 
 class uvasomcmedept_search_widget extends WP_Widget {
-
 	// constructor
-	function uvasomcmedept_search_widget() {
-		parent::WP_Widget(false, $name = __('UVA SOM CME Course Search Widget', 'uvasomcmedept_search_widget') );
+	function __construct() {
+		parent::__construct(
+			'uvasomcmedept_search_widget', // Base ID
+			'UVA SOM CME Course Search Widget', // Name
+			array( 'description' => 'UVA SOM CME Course Search Widget' ) // Args
+		);
+	// deprecated constructor
+	//function uvasomcmedept_search_widget() {
+		//parent::WP_Widget(false, $name = __('UVA SOM CME Course Search Widget', 'uvasomcmedept_search_widget') );
 	}
 	//get the dropdowns by taxonomy
 
@@ -26,10 +32,10 @@ if( $instance) {
 <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 </p>
 <p>
-<input class="checkbox" type="checkbox" <?php checked($instance['department'], 'on'); ?> id="<?php echo $this->get_field_id('department'); ?>" name="<?php echo $this->get_field_name('department'); ?>" /> 
+<input class="checkbox" type="checkbox" <?php checked($instance['department'], 'on'); ?> id="<?php echo $this->get_field_id('department'); ?>" name="<?php echo $this->get_field_name('department'); ?>" />
 <label for="<?php echo $this->get_field_id('department'); ?>">Include Sponsoring Department</label></p>
 <p>
-<input class="checkbox" type="checkbox" <?php checked($instance['primary'], 'on'); ?> id="<?php echo $this->get_field_id('primary'); ?>" name="<?php echo $this->get_field_name('division'); ?>" /> 
+<input class="checkbox" type="checkbox" <?php checked($instance['primary'], 'on'); ?> id="<?php echo $this->get_field_id('primary'); ?>" name="<?php echo $this->get_field_name('division'); ?>" />
 <label for="<?php echo $this->get_field_id('division'); ?>">Include Sponsoring Division</label></p>
 <?php
 	}
@@ -54,12 +60,12 @@ if( $instance) {
 	   echo $before_widget;
 	   // Display the widget
 	   echo '<div class="widget-text uvasomcmedept_search_widget_box">';
-	
+
 	   // Check if title is set
 	   if ( $title ) {
 		  echo $before_title . $title . $after_title;
 	   }
-	   
+
 	   //output the search form
 	   ?>
 	   <form action="<?php bloginfo('url'); ?>" method="get">
